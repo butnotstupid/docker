@@ -4,12 +4,12 @@ Intro to Docker
 
 Prerequisites
 =============
-- [ ] RAM ≥ 4Gb
-- [ ] Права локального админа для аккаунта участника 
-- [ ] Доступен git repo с данным руководством {{ git-repo }} `https://github.com/eugene-krivosheyev/docker`
-- [ ] Доступен {{ registry-host }} `https://hub.docker.com` (Docker Hub)
-- [ ] Зарегистрирована учетная запись {{ registry-account }} на {{ registry-host }}
-- [ ] Установлен Docker CE или совместимый менеджер контейнеров (e.g. Podman)
+- [x] RAM ≥ 4Gb
+- [x] Права локального админа для аккаунта участника 
+- [x] Доступен git repo с данным руководством {{ git-repo }} `https://github.com/eugene-krivosheyev/docker`
+- [x] Доступен {{ registry-host }} `https://hub.docker.com` (Docker Hub)
+- [x] Зарегистрирована учетная запись {{ registry-account }} на {{ registry-host }}
+- [x] Установлен Docker CE или совместимый менеджер контейнеров (e.g. Podman)
 ```shell
 sudo dnf install -y docker
 ```
@@ -86,7 +86,7 @@ container #--# host : "port\nmapping"
 
 Hands-on practice quest #00: prerequisites sound-check (15+5)
 ---------------------------
-- [ ] Given
+- [x] Given
 - сделан форк данного руководства для собственных пометок
 - форк открыт в браузере для внесения пометок
 - для последующей удобной работы с copy+paste для ресурсов раздела [Prerequisites](#Prerequisites) плейсхолдеры заменены актуальными значениями
